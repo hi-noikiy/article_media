@@ -1,0 +1,31 @@
+
+#windownbg{display:none;position:absolute;width:100%;height:100%;background:#000;top:0;left:0;}
+#windown-box{width:650px;position:fixed;border:5px solid #4CB3E7;background:#FFF;text-align:left;}
+#windown-title{position:relative;height:44px;border-bottom:1px solid #CCCCCC;overflow:hidden;background:#F5F5F5;}
+#windown-title h2{background: url(/img/qq_kf.png) no-repeat scroll -66px 2px transparent;color: #666666;font-size: 20px;font-weight: bold;height: 40px;left: 10px;line-height: 40px;padding-left: 0px;position: absolute;top: 5px;}
+#windown-title p{color: #666666;font-size: 15px;font-weight: bold;left: 198px;position: absolute;top: 17px;}
+#windown-close{background: url(/img/qq_kf.png) no-repeat scroll -106px -42px transparent;cursor: pointer;height: 12px;overflow: hidden;position: absolute;right: 10px;text-indent: -10em;top: 17px;width: 12px;}
+
+
+
+
+.ly_ins{float:left;width:600px;padding:15px;background:#fff}
+.ly_ins table{border-collapse:collapse;width:100%}
+.ly_ins .table1,.ly_ins td,.ly_ins th{border-bottom:1px solid #ddd;padding:0}
+.ly_ins .table1{border:1px solid #ddd}
+.ly_ins .table2{border:0}
+.ly_ins .table2 td{border-bottom:1px solid #f1f1f1;padding:10px 8px;color:#666}
+.ly_ins .table2 tr:last-child td:last-child{border-color:#fff}
+.ly_ins td.nm1{text-align:right;border-bottom:1px solid #f8f8f8;background:#f8f8f8;width:15%;color:#333;border-right:1px solid #f1f1f1}
+.ly_ins td.tyn{text-align:center;border-right:1px solid #ddd;font-weight:700;background:#f2f2f2;width:35px}
+.ly_ins span{float:left;width:80%}
+.ly_ins img{float:right;cursor:pointer}
+.ins_notes{float:left;padding:5px 0;font-size:13px;width:98%;border-top:#e1e1e1 solid 1px}
+.ins_notes li{float:left;width:100%;line-height:25px}
+.ins_notes span{text-decoration:underline}
+.ins_notes b{padding-right:4px;color:#666;font-size:15px}
+.ins_notes h3{float:left;font-size:14px;background:url(../img/tsicon.gif) 0 center no-repeat;padding-left:20px;font-weight:700;width:90%}
+.customer_div{float:left;width:300px;padding:15px;background:#f6f9ff}
+.customer_div p{float:left;width:100%;margin:0 0 10px 0}
+.customer_uqq{width:300px}
+.customer_uqq span{float:left;line-height:27px}

@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*ui-choose样式，可根据实际项目需求进行调整*/
+select.ui-choose{display: none;}
+ul.ui-choose { box-sizing: border-box; display: inline-block; border: 1px solid transparent; font: 100 16px/30px 'microsoft yahei'; border-right: none; border-bottom: none; font-size: 14px; margin: 0; padding: 0; list-style: none; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ul.ui-choose:after { content: ""; display: table; clear: both; }
+ul.ui-choose>li { box-sizing: border-box; border: 1px solid #ccc; float: left; height: 30px; line-height: 28px; margin-right: 7px; padding: 0 16px; cursor: pointer; position: relative; z-index: 1; min-width: 20px; text-align: center; border-radius: 4px;background:#fff;}
+/* ul.ui-choose>li:first-child { border-radius: 3px 0 0 3px; }
+ul.ui-choose>li:last-child { border-radius: 0 3px 3px 0; } */
+ul.ui-choose>li:hover { z-index: 4; border-color: #e1e1e1; color: #ff6600; }
+ul.ui-choose>li.selected { z-index: 3; border-color: #e1e1e1; background-color: #ff6600; color: #fff; }
+ul.ui-choose>li.disabled { z-index: 2; background-color: #f2f2f2; color: #aaa; cursor: not-allowed; }
+ul.ui-choose>li.disabled:hover { border-color: #aaa; }
+ul.ui-choose>li.selected.disabled { z-index: 2; background-color: #8FC7FF; color: #fff; cursor: not-allowed; border-color: #8FC7FF; } 
+ul.choose-type-right>li.selected { color: #ff6600; background: transparent url("/user/img/icon-selected.png") no-repeat right bottom;background-color: #fff; }
+ul.ui-choose.choose-flex { display: flex; }
+ul.ui-choose.choose-flex>li { flex: 1; padding: 0 8px; }
+.notes {
+    overflow: hidden;
+    background: #f6f9ff;
+    padding: 10px 0;
+    font-size: 13px;
+    width: 100%;
+    border-top: #ededed solid 1px;
+}
+.notes li {
+    padding-left: 20px;
+    float: left;
+    width: 90%;
+    line-height: 25px;
+}
+.notes h3 {
+    float: left;
+    font-size: 14px;
+    background: url(/user/img/tsicon.gif) 0 center no-repeat;
+    padding-left: 20px;
+    font-weight: 700;
+    width: 90%;
+}
+.layui-form-item {
+    margin-top: 15px;
+    clear: both;
+}
+
+.layui-form-label {
+    float: left;
+    display: block;
+    padding: 6px 15px;
+    width: 80px;
+    font-weight: 400;
+    text-align: right;
+}
+.layui-form-label, .layui-form-mid, .layui-textarea {
+    line-height: 20px;
+    position: relative;
+}
+.element.style {
+    width: 380px;
+}
+.layui-form-item .layui-input-inline {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+.layui-input-inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+element.style {
+    height: 50px;
+}
+.layui-textarea {
+    min-height: 100px;
+    height: auto;
+    padding: 6px 10px;
+    resize: vertical;
+}
+.layui-input, .layui-textarea {
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+}
+.layui-form-label, .layui-form-mid, .layui-textarea {
+    line-height: 20px;
+    position: relative;
+}
+.layui-form-mid {
+    float: left;
+    display: block;
+    padding: 6px 0;
+    margin-right: 10px;
+}
+
+.layui-form-label, .layui-form-mid, .layui-textarea {
+    line-height: 20px;
+    position: relative;
+}
+.layui-word-aux {
+    font-size: 12px;
+    color: #999;
+    padding: 0 5px;
+	margin-left:15px;
+}
+.layui-form-item {
+    margin-top: 15px;
+    clear: both;
+}
+.layui-form-label {
+    float: left;
+    display: block;
+    padding: 6px 15px;
+    width: 80px;
+    font-weight: 400;
+    text-align: right;
+}
+.layui-form-label, .layui-form-mid, .layui-textarea {
+    line-height: 20px;
+    position: relative;
+}
+.layui-input-block {
+    margin-left: 110px;
+    min-height: 36px;
+}
+.demo-box {
+        margin: 40px auto;
+        width: 600px;
+        padding: 20px;
+        border: 5px solid #ccc;
+    }
+    
+    .demo-table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .demo-table caption {
+        border-bottom: 1px dashed #ccc;
+        height: 40px;
+        margin-bottom: 20px;
+        font: 18px/1.2 normal 'microsoft yahei';
+    }
+    
+    .demo-table tr td {
+        padding: 8px 10px;
+        font: 16px/1.8 normal 'microsoft yahei';
+        vertical-align: top;
+    }
+    
+    .ui-input {
+        vertical-align: top;
+        height: 18px;
+        font-size: 16px;
+        line-height: 20px;
+        border: 1px solid #aaa;
+        padding: 6px 8px;
+        border-radius: 3px;
+    }
+		.jq22-header h1{ text-align: center; font-size: 16px; }

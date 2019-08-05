@@ -1,0 +1,104 @@
+
+<div class="bottom">
+	<div class="main">
+		<div class="footer">
+			<div class="footer-nav left">
+			 
+					<dl>
+						<dt>买家指南</dt>
+						<dd>
+						 							<p><a href="<?=weburl?>help/search_j9v_k14v.html" target="_blank" rel="nofollow">如何注册</a></p>
+							<p><a href="<?=weburl?>help/search_j9v_k15v.html" target="_blank" rel="nofollow">如何购买</a></p>
+							<p><a href="<?=weburl?>help/search_j9v_k16v.html" target="_blank" rel="nofollow">搜索商品</a></p>
+							<p><a href="<?=weburl?>help/search_j9v_k17v.html" target="_blank" rel="nofollow">支付方式</a></p>
+						</dd>
+					</dl>
+				
+					<dl>
+						<dt>卖家指南</dt>
+						<dd>
+						 							<p><a href="<?=weburl?>help/search_j10v_k18v.html" target="_blank" rel="nofollow">如何出售</a></p>
+							<p><a href="<?=weburl?>help/search_j10v_k19v.html" target="_blank" rel="nofollow">收费标准</a></p>
+							<p><a href="<?=weburl?>help/search_j10v_k20v.html" target="_blank" rel="nofollow">入驻签约</a></p>
+						</dd>
+					</dl>
+				
+					<dl>
+						<dt>安全交易</dt>
+						<dd>
+						 							<p><a href="<?=weburl?>help/search_j11v_k21v.html" target="_blank" rel="nofollow">钓鱼防骗</a></p>
+							<p><a href="<?=weburl?>help/search_j11v_k22v.html" target="_blank" rel="nofollow">预防盗号</a></p>
+							<p><a href="<?=weburl?>help/search_j11v_k23v.html" target="_blank" rel="nofollow">谨防诈骗</a></p>
+							<p><a href="<?=weburl?>help/search_j11v_k24v.html" target="_blank" rel="nofollow">实名认证</a></p>
+						</dd>
+					</dl>
+				
+					<dl>
+						<dt>常见问题</dt>
+						<dd>
+						 							<p><a href="<?=weburl?>help/search_j12v_k25v.html" target="_blank" rel="nofollow">如何充值</a></p>
+							<p><a href="<?=weburl?>help/search_j12v_k26v.html" target="_blank" rel="nofollow">如何提现</a></p>
+							<p><a href="<?=weburl?>help/search_j12v_k27v.html" target="_blank" rel="nofollow">真假客服</a></p>
+							<p><a href="<?=weburl?>help/search_j12v_k28v.html" target="_blank" rel="nofollow">忘记密码</a></p>
+						</dd>
+					</dl>
+				
+					<dl>
+						<dt>服务中心</dt>
+						<dd>
+						 							<p><a href="<?=weburl?>help/search_j13v_k29v.html" target="_blank" rel="nofollow">我要咨询</a></p>
+							<p><a href="<?=weburl?>help/search_j13v_k30v.html" target="_blank" rel="nofollow">我要建议</a></p>
+							<p><a href="<?=weburl?>help/search_j13v_k31v.html" target="_blank" rel="nofollow">我要投诉</a></p>
+							<p><a href="<?=weburl?>help/search_j13v_k33v.html" target="_blank" rel="nofollow">QQ客服</a></p>
+						</dd>
+					</dl>
+									
+				
+			</div>
+    <div class="footer-contact rightv" style="
+    float: left;
+    margin: 1px 0 10px 20px;
+    /* background-color: #fff; */
+    /* border: #E1E1E1 solid 1px; */
+    /* width: 978px; */
+    /* min-height: 552px; */
+    text-align: left;
+    padding: 0 0 10px 0;
+">
+	<div class="left">
+	<b>管理客服</b>
+<?
+$qq=preg_split("/,/",$rowcontrol[webqqv]);
+for($qqi=0;$qqi<count($qq);$qqi++){
+$qv=preg_split("/\*/",$qq[$qqi]);
+if($qv[0]!=""){
+if($qv[1]==""){$qtit="网站客服";}else{$qtit=$qv[1];}
+?>
+<p>QQ：<a style='color: #007de4;'title="联系客服QQ" href="http://wpa.qq.com/msgrd?v=3&uin=<?=$qv[0]?>&site=<?=weburl?>&menu=yes"><?=$qtit?></a></p>
+<?
+}
+}
+?>	
+		<p>电话：<?=$rowcontrol[webtelv]?></p>
+		<p>邮箱：<?=$qv[0]?>@qq.com</p>
+		<p>时间：9:00-23:00</p>
+		</div>
+		</div>
+
+		  <span><img src="<?=weburl?>tem/getqr.php?u=<?=weburl?>m&size=4" width="110" height="100" /></span>
+			<p>&nbsp; &nbsp;扫一扫进手机版</p>
+		</div>
+		<div class="footer-link">
+				<div class="footer-link-a left">
+					<p><a href="<?=weburl?>help/aboutview2.html" target="_blank" rel="nofollow">关于我们</a>  
+					<a href="<?=weburl?>help/aboutview3.html" target="_blank" rel="nofollow">广告合作</a> 
+					<a href="<?=weburl?>help/aboutview4.html" target="_blank" rel="nofollow">联系我们</a> 
+					<a href="<?=weburl?>help/aboutview5.html" target="_blank" rel="nofollow">隐私条款</a> 
+					<a href="<?=weburl?>help/aboutview6.html" target="_blank" rel="nofollow" title=6>免责声明</a>  |<em>&nbsp;&nbsp;&nbsp; 2009-2017 <?=webname?> 版权所有 </em> </p>
+					<cite><?=webname?> www.yizhanw.com <?=$rowcontrol[beian]?> | </cite>
+				</div>
+
+			</div>
+
+	</div>
+</div>

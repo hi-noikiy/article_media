@@ -1,0 +1,1 @@
+{"appid":"101479471741","appkey":"8bf023912f50a9c5236879dc234e4d4e","callback":"http://xinhuzhan3.a6wang.com/reg/qqreturnlast.php","scope":"get_user_info","errorReport":true,"storageType":"file","host":"localhost","user":"root","password":"root","database":"test"}

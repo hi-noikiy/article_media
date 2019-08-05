@@ -1,0 +1,614 @@
+article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul {
+	margin:0;
+	padding:0;
+	color:#333
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block
+}
+audio,canvas,video {
+	display:inline-block
+}
+body,button,input,select,textarea {
+	font:12px/1.5 Microsoft YaHei,tahoma,arial,\5b8b\4f53
+}
+input,select,textarea {
+	font-size:100%
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+th {
+	text-align:inherit
+}
+fieldset,img {
+	border:0
+}
+img {
+	vertical-align:bottom
+}
+iframe {
+	display:block
+}
+ol,ul {
+	list-style:none
+}
+caption,th {
+	text-align:left
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:500
+}
+em,i {
+	font-style:normal
+}
+a {
+	color:#333;
+	cursor:pointer
+}
+a:hover {
+	color:#bb4046;
+	text-decoration:underline
+}
+a,ins {
+	text-decoration:none
+}
+.clearfix:after,.clearfix:before {
+	content:".";
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden
+}
+.clearfix:after {
+	clear:both
+}
+.icon {
+	display:inline-block;
+	position:absolute;
+	overflow:hidden;
+	background:url(https://static.huzhan.com/img/login_icon.png) no-repeat
+}
+.hide {
+	display:none
+}
+.block {
+	display:block!important
+}
+.fl {
+	float:left
+}
+.fr {
+	float:right
+}
+.tc {
+	text-align:center
+}
+.tl {
+	text-align:left
+}
+.tr {
+	text-align:right
+}
+.cursor {
+	cursor:pointer
+}
+.greenBtn,.rlbtn {
+	display:inline-block;
+	padding:4px 18px;
+	background:#58a4ed;
+	border-radius:2px;
+	color:#fff
+}
+.rlbtn:hover {
+	text-decoration:none;
+	color:#fff;
+	background:#3d96ec
+}
+.greenBtn {
+	background:#4dbe5a
+}
+.greenBtn:hover {
+	text-decoration:none;
+	color:#fff;
+	background:#25b136
+}
+.gray {
+	color:grey
+}
+.gray-c {
+	color:#ccc
+}
+.gray-3 {
+	color:#333
+}
+.gray-6 {
+	color:#666
+}
+.gray-9 {
+	color:#999!important
+}
+.red {
+	color:red
+}
+.blue {
+	color:#369!important
+}
+.bgf2 {
+	background:#f2f2f2!important
+}
+.SimSun {
+	font-family:SimSun!important
+}
+.fz12 {
+	font-size:12px!important
+}
+.fz14 {
+	font-size:14px!important
+}
+.fz16 {
+	font-size:16px!important
+}
+.fz18 {
+	font-size:18px!important
+}
+.fz20 {
+	font-size:20px!important
+}
+.mt10 {
+	margin-top:10px
+}
+.mt20 {
+	margin-top:20px
+}
+.ml10 {
+	margin-left:10px
+}
+.formInfo em.red {
+	line-height:30px
+}
+.main,.mainMin {
+	width:1000px;
+	margin:0 auto;
+	position:relative
+}
+.main {
+	width:930px
+}
+.mainMin {
+	width:930px
+}
+#footer {
+	background:#f2f2f2;
+	padding:20px 0;
+	margin-top:20px
+}
+#footer p {
+	text-align:center;
+	color:#999;
+	line-height:24px
+}
+#footer p a {
+	color:#999;
+	margin:0 4px
+}
+#footer p a:hover {
+	color:#bb4046
+}
+.loginHead {
+	padding:20px 0 0 0
+}
+.loginMain {
+	border-top:1px solid #f0f0f0
+}
+.loginBtnBar {
+	margin-top:8px
+}
+.loginBtnBar .gray {
+	vertical-align:middle;
+	padding:6px 0 5px;
+	display:inline-block
+}
+.loginBtnBar .rlbtn {
+	margin-left:7px;
+	vertical-align:middle
+}
+.registeredStep {
+	margin:20px 0;
+	background:#ddd;
+	overflow:hidden
+}
+.registeredStep li {
+	float:left;
+	width:270px;
+	padding-left:30px;
+	height:40px;
+	line-height:40px;
+	color:#999;
+	font-size:18px;
+	position:relative
+}
+.registeredStep li.three,.registeredStep li.two {
+	width:275px;
+	padding-left:40px
+}
+.registeredStep li .icon {
+	z-index:2;
+	top:0;
+	right:-11px;
+	width:21px;
+	height:40px
+}
+.registeredStep li em {
+	padding-right:10px;
+	font-family:tahoma;
+	font-size:19px
+}
+.registeredStep li.active {
+	color:#fff;
+	background:#58a4ed
+}
+.registeredInfo {
+	background:#fff;
+	border:1px solid #ddd;
+	padding:20px 40px
+}
+.registeredInfo .api_ts {
+	float:left;
+	width:100%;
+	text-align:center;
+	border:solid 1px #fc9f31;
+	margin:0 0 18px 0;
+	line-height:35px;
+	background:#fefbe3;
+	color:#f1453a;
+	font-size:14px
+}
+.registeredInfo .reg-tab {
+	float:left;
+	width:100%;
+	border-bottom:2px solid #e0e0e0;
+	height:34px;
+	line-height:34px
+}
+.reg-tab .t {
+	float:left;
+	font-size:18px;
+	line-height:34px;
+	height:34px;
+	padding:0 0 0 30px;
+	position:relative;
+	margin-right:48px;
+	color:#999
+}
+.reg-tab .t .icon {
+	top:6px;
+	left:1px;
+	width:20px;
+	height:19px;
+	background-position:-29px -11px
+}
+.reg-tab .t .icon2 {
+	top:8px;
+	width:24px;
+	background-position:-55px -11px
+}
+.reg-tab .t .icon3 {
+	top:6px;
+	width:23px;
+	background-position:-83px -11px
+}
+.reg-tab label {
+	float:left;
+	background:#f8f8f8;
+	line-height:32px;
+	height:32px;
+	margin-left:10px;
+	padding:0 15px;
+	cursor:pointer;
+	border:solid 2px #e0e0e0;
+	color:#666
+}
+.reg-tab label.active {
+	height:32px;
+	background:#fff;
+	color:#222;
+	border-bottom:solid 2px #fff
+}
+.formInfo {
+	padding:40px 0 40px 80px
+}
+.formInfo dl {
+	margin-bottom:20px;
+	padding-left:80px;
+	position:relative
+}
+.formInfo dt {
+	display:inline-block;
+	float:left;
+	width:100px;
+	margin-left:-100px;
+	height:34px;
+	line-height:34px;
+	text-align:right;
+	font-size:14px;
+	vertical-align:middle
+}
+.formInfo dd .text {
+	float:left;
+	width:200px;
+	height:33px;
+	line-height:18px;
+	padding:7px 10px;
+	border:1px solid #ddd
+}
+.formInfo dd span.error {
+	float:left;
+	font-size:12px;
+	height:20px;
+	line-height:20px;
+	padding:7px 10px;
+	color:red
+}
+.formInfo dd a {
+	display:inline-block;
+	float:left;
+	height:20px;
+	line-height:20px;
+	margin:7px 10px;
+	color:#369
+}
+.formInfo .verification .text {
+	width:75px!important
+}
+.formInfo .captcha_box {
+	position:relative
+}
+.captcha_box {
+	position:relative
+}
+.captcha_box #popup-captcha {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%
+}
+.formInfo input.submit {
+	outline:0;
+	cursor:pointer;
+	height:40px;
+	line-height:40px;
+	border:none;
+	width:322px;
+	display:inline-block;
+	padding:0;
+	font-size:18px;
+	margin-top:10px
+}
+.formInfo .emaliSend {
+	width:550px;
+	position:relative;
+	padding:40px 0 0 140px
+}
+.formInfo .emaliSend .icon {
+	top:45px;
+	left:70px;
+	width:43px;
+	height:40px;
+	background-position:-138px -1px
+}
+.formInfo .emaliSend p {
+	line-height:34px
+}
+.formInfo .emaliSend .greenBtn {
+	margin-top:30px;
+	padding:10px 15px;
+	font-size:18px
+}
+.formInfo .success .m {
+	font-size:30px
+}
+.formInfo .errorBar {
+	position:relative;
+	width:310px;
+	height:28px;
+	line-height:28px;
+	padding-left:40px;
+	background:#fefcf3;
+	border:1px solid #de927d
+}
+.formInfo .errorBar .icon {
+	left:12px;
+	top:5px;
+	width:18px;
+	height:18px;
+	background-position:-111px -12px
+}
+.formInfo input.checkbox {
+	position:relative;
+	top:2px;
+	margin-right:5px
+}
+.formInfo .provision a {
+	height:18px;
+	line-height:18px;
+	margin:0 0 0 10px;
+	padding:0
+}
+.userLogin {
+	position:relative;
+	padding:25px 0 30px;
+	margin-top:40px;
+	border:1px solid #ddd;
+	min-height: 340px;
+	background:#fff;
+	box-shadow:0 1px 1px 0 rgba(0,0,0,.1);
+}
+.show {
+	position:absolute;
+	top:0;
+	left:0;
+	width:489px;
+	height:395px;
+}
+.userInfoLogin {
+	margin:0 0 0 530px;
+}
+.userInfoLogin .formInfo {
+	padding:0;
+	width:352px
+}
+.userInfoLogin .formInfo dl {
+	padding:0;
+	margin:15px 0 0 0
+}
+.userInfoLogin .formInfo dd .text {
+	width:310px;
+	padding:7px 10px 7px 30px
+}
+.userInfoLogin .password .icon,.userInfoLogin .user .icon {
+	width:16px;
+	height:18px;
+	left:8px;
+	top:7px
+}
+.userInfoLogin .user .icon {
+	background-position:-29px -33px
+}
+.userInfoLogin .password .icon {
+	background-position:-51px -33px
+}
+.userInfoLogin .formInfo input.submit {
+	margin:0;
+	padding:0;
+	width:352px;
+	font-size:16px;
+	background:#58a4ed;
+	border-radius:2px;
+	color:#fff
+}
+.userInfoLogin .formInfo input.submit:hover {
+	background:#3d96ec
+}
+body .tip {
+	border-color:#fafafa
+}
+body .tip .layui-layer-content {
+	box-shadow:1px 1px 3px rgba(0,0,0,.2);
+	color:#8c3901
+}
+.reg-from {
+	width:530px;
+	float:left
+}
+.login-three {
+	width:150px;
+	float:right;
+	padding:0 100px 0 50px;
+	text-align:center;
+	border-left:1px solid #ddd;
+	margin-top:40px;
+	height:150px
+}
+.login-three h3 {
+	font-size:14px;
+	color:#555;
+	text-align:left
+}
+.login-three-home {
+	padding:30px 0 13px 0;
+	width:355px;
+	text-align:center
+}
+.login-three-home h3 {
+	font-size:12px;
+	color:#666;
+	text-align:center;
+	padding:10px 0 20px 0;
+	width:355px;
+	height:14px;
+	background:url(../img/line.jpg) left center repeat-x
+}
+.login-three-home h3 em {
+	background:#fff;
+	padding:0 5px
+}
+.login-three a,.login-three-home a {
+	float:left;
+	width:43px;
+	height:43px;
+	margin-right:12px;
+	background:url(../img/login_big_icon.jpg) no-repeat
+}
+.login-three a:hover,.login-three-home a:hover {
+	background:url(../img/login_big_icon_hover.jpg) no-repeat
+}
+a#sina {
+	background-position:-114px 0
+}
+a#wechat {
+	background-position:0 -54px
+}
+a#baidu {
+	background-position:-224px 0
+}
+.login-three a {
+	margin:12px 0 0 12px
+}
+.navList {
+	padding-left:30px
+}
+.navList li {
+	float:left;
+	line-height:56px;
+	height:47px
+}
+.navList li a {
+	padding:3px 20px;
+	color:#888;
+	border-radius:15px
+}
+.navList li a:hover {
+	color:#fff;
+	background:#58a4ed;
+	text-decoration:none
+}
+.tabs {
+	padding-top:50px;
+	position:relative
+}
+.menu {
+	position:absolute;
+	top:52px;
+	right:0;
+	padding:0;
+	margin:0;
+	margin-bottom:-1px;
+	z-index:2
+}
+.menu li {
+	float:left;
+	width:100px;
+	text-align:center;
+	border:none;
+	cursor:pointer;
+	padding:10px 5px;
+	border-radius:3px 3px 0 0;
+	border:1px solid #ddd;
+	border-bottom:none
+}
+.menu li:hover {
+	background:#fff
+}
+.menu .on {
+	border:1px solid #ddd;
+	background:#fff;
+	border-bottom:1px solid #fff
+}
+.tab {
+	clear:both;
+	display:none
+}

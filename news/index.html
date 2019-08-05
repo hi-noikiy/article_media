@@ -1,0 +1,436 @@
+<html>
+<head>
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>新闻资讯 - 一站网</title>
+<link href="../css/basic.css" rel="stylesheet" type="text/css" />
+<link href="index.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="../js/basic.js"></script>
+<script language="javascript" src="indexqh.js"></script>
+<div class="yjcode"></div>
+</head>
+<body>
+<div class="yizhanwcom">
+<div class="top_box">
+		<div class="main">
+		<div class="top"> 
+			<div class="left">
+			<span id="notlogin" style="display:none">
+			<li class='not'>您好！欢迎来到一站网！</li>
+			<li class='not'><a href="http://xinhuzhan3.a6wang.com/reg/reg.php" class='T_a'><i class='iconfont va-2' style='font-size:18px;'>&#xe6aa;</i> 注册</a>
+			</li>
+			<li class='arrow'>
+				<a href="http://xinhuzhan3.a6wang.com/reg/" class='T_a'>登录<em class='arrow'></em></a>
+				<div class="change_div top_login"> 
+					<a target="_blank"  href="http://xinhuzhan3.a6wang.com/config/qq/oauth/index.php" class='login_icon'>QQ帐号登录</a>
+										<a target="_blank"  href="https://open.weixin.qq.com/connect/qrconnect?appid=54645&redirect_uri=http%3A%2F%2Fxinhuzhan3.a6wang.com%2Freg%2Fwxlogin.php&response_type=code&scope=snsapi_login#wechat_redirect"  class='login_icon' id='wechat'>微信帐号登录</a>
+					
+									</div>
+			</li>
+			</span>
+			<span id="yeslogin" style="display:none"><li class="not">您好！</li>
+			<li class="arrow"><a href="http://xinhuzhan3.a6wang.com/user/" target="_blank" class="T_a"><span id="yesuid"></span>
+			<em class="arrow"></em></a>
+			<dl class="change_div top_user"><dt>
+			<a href="http://xinhuzhan3.a6wang.com/user/"><img class="pic_Layer" id="idltx" src=""></a>
+					<span>
+						<p><em>您的账号：<a href="http://xinhuzhan3.a6wang.com/user/" id="idl1"></a></em><input type="button" onclick="window.location.href=&#39;http://xinhuzhan3.a6wang.com/user/&#39;;" value="号"></p>
+						<p><em>帐户总额：<a href="http://xinhuzhan3.a6wang.com/user/pay.php" id="yue"></a> 元</em> <input type="button" onclick="window.location.href=&#39;http://xinhuzhan3.a6wang.com/user/pay.php&#39;;" value="充"></p>
+						<p><em>帐户冻结：<a href="http://xinhuzhan3.a6wang.com/user/paylog.php" id="idl3"></a> 元</em> <input type="button" onclick="window.location.href=&#39;http://xinhuzhan3.a6wang.com/user/paylog.php&#39;;" value="结"></p>
+						<p><em>可提现额：<a href="http://xinhuzhan3.a6wang.com/user/tixian.php" id="idl4"></a> 元</em> <input type="button" onclick="window.location.href=&#39;http://xinhuzhan3.a6wang.com/user/tixian.php&#39;;" value="提"></p>
+						<p><em>帐户积分：<a href="http://xinhuzhan3.a6wang.com/user/qiandao.php"id="idljifen"></a> 积分</em><input type="button" class="signsuc" value="赚"></p>
+						</span>
+					</dt>
+					<dd>
+						<a href="http://xinhuzhan3.a6wang.com/user/tixian.php"><i class="iconfont"></i><p>提现</p></a>
+						<a href="http://xinhuzhan3.a6wang.com/user/pwd.php"><i class="iconfont"></i><p>安全</p></a>
+						<a href="http://xinhuzhan3.a6wang.com/user/smrz.php"><i class="iconfont"></i><p>认证</p></a>
+			<a href="http://xinhuzhan3.a6wang.com/user/openshoprz.php"><i class="iconfont" style="font-size:27px;margin-top:-2px;padding-bottom:2px;"></i><p>店铺</p></a>					</dd>
+					<a class="logout" href="http://xinhuzhan3.a6wang.com/user/un.php">退出登陆<i class="iconfont va-1">⿶</i></a>
+				</dl>
+			</li>
+			<li>
+				<a href="http://xinhuzhan3.a6wang.com/user/qiandao.php" id="needqd" style="display:none;" class="T_a">
+				<i class="iconfont va-3" style="font-size:18px;"></i> 今日签到</a>
+               <a id="dontqd" style="display:none;" href="http://xinhuzhan3.a6wang.com/user/qiandao.php" class="T_a">
+				<i class="iconfont va-3" style="font-size:18px;"></i> 已签到</a>
+
+
+			</li>
+			<li>
+				<a href="http://xinhuzhan3.a6wang.com/user/car.php" class="T_a">
+				<i class="iconfont va-2" style="font-size:18px;"></i> 购物车</a>
+			</li>
+			
+			</span>
+			</div>
+		
+			<div class="rightv">
+				<li class='not'>
+				<a href="http://xinhuzhan3.a6wang.com/" target="_blank"class='T_a'>网站首页</a>
+				</li>
+				<li class='not'>
+				<a href="http://xinhuzhan3.a6wang.com/mt/" class='T_a'>手机版</a>
+				</li>
+				<!--<li class='not'>
+				<a href="http://xinhuzhan3.a6wang.com/ser/newslist.php" target="_blank" class='T_a'>稿件中心</a>
+				</li>-->
+				<li class='not'>
+				<a href="http://xinhuzhan3.a6wang.com/help/" class='T_a' target="_blank"> 帮助中心</a>
+				</li>
+				<li class='arrow'>
+				<a href="/" class='T_a'><i class="iconfont va-2 " style='font-size:18px;' >&#xe8a8;</i> 管理中心<em class='arrow'></em></a>
+				<div class="change_div top_manage r"> 
+							<div class="clearfix">
+								<dl>
+								<dt>财务管理</dt>
+								<dd>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/pay.php" target="_blank"><strong>在线充值</strong></a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/tixian.php" target="_blank"><strong>快速提现</strong></a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/tixianlog.php" target="_blank">提现历史</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/paylog.php" target="_blank"><strong>财务明细</strong></a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/jflog.php" target="_blank">积分明细</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>我是买家</dt>
+								<dd> 
+									<a rel="nofollow" href="user/productlist.phpuser/car.php" target="_blank">购物车</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/task/taskadd.php" >发布需求</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/tasklist.php" target="_blank"><strong>我是雇主</strong></a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/taskhflist.php" target="_blank">我是接手</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/order.php" target="_blank"><strong>买入订单</strong></a>
+									
+								</dd>
+							</dl>
+							<dl>
+								<dt>我是卖家</dt>
+								<dd>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/productlx.php">发布出售</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/productlist.php" target="_blank"><strong>商品管理</strong></a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/sellorder.php" target="_blank"><strong>售出订单</strong></a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/adlx1.php" target="_blank">自助广告交易</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/shop.php" target="_blank">店铺管理</a>
+								</dd>
+							</dl> 
+						</div>
+						<div class="clearfix">
+							<dl>
+								<dt>帮助咨询</dt>
+								<dd>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/help/" target="_blank">帮助中心</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/help/aboutview5.html" target="_blank">隐私条款</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/help/aboutview4.html" target="_blank">联系客服</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/help/aboutview2.html" target="_blank">关于我们</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>用户管理</dt>
+								<dd>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/inf.php" target="_blank">基本资料</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/mobbd.php" target="_blank">认证中心</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/favpro.php" target="_blank">我的收藏</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/gdlist.php" target="_blank">工单系统</a>
+								</dd>
+							</dl>
+							<dl>
+								<dt>账户安全</dt>
+								<dd>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/">安全中心</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/pwd.php">修改密码</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/zfmm.php">安全码修改</a>
+									<a rel="nofollow" href="http://xinhuzhan3.a6wang.com/user/emailbd.php" target="_blank">邮箱认证</a>
+								</dd>
+							</dl>
+						</div>
+						<!--[if IE 6]>
+							<div style="position:absolute;z-index:-1;left:0;top:0;width:518px;height:510px">  
+								<iframe style="width:100%;height:100%;filter:alpha(opacity=0);-moz-opacity:0"></iframe>  
+							</div> 
+						<![endif]-->
+						<!--www.epzhu.com 开发-->
+				</div>
+				</li>
+			</div>
+		</div>
+	</div>
+	</div></div></div>
+<span id="webhttp" style="display:none">http://xinhuzhan3.a6wang.com/</span>
+<script language="javascript">
+userCheckses();
+</script>
+<script language="javascript" src="../js/js/basic.js"></script>
+<script language="javascript" src="../js/js/index.js"></script>
+<script language="javascript">idldl(1);</script>
+
+<div class="yjcode" style="width: 80px;position: fixed;top: 0;z-index: 13;right: 0;"><div class="ad1"><a href="/help/ggview19.html" target=_blank><img alt="11" border=0 src=http://xinhuzhan3.a6wang.com/gg/1529336861ad49.png></a></div></div>
+<div class="quick_links">
+<a href="user/" target="_blank"><i class='iconfont'>&#xe631;</i><p>我的中心</p></a>
+  <a href="/help/ggview16.html"> <img src="/tem/moban/huzhan/images/yizhanw.png" width="45" height="45" style=" width: 25px; height: 25px;"><p>微信关注</p></a>
+<a href="/help/ggview18.html" > <img src="/tem/moban/huzhan/images/shouji2.png" width="45" height="45" style=" width: 25px; height: 25px;"><p>App下载</p></a>
+<a href="/help/ggview17.html" ><i class="iconfont">&#xe62f;</i><p>联系平台</p></a>
+<!--<a href="http://wpa.qq.com/msgrd?v=3&uin=120036745&site=http://xinhuzhan3.a6wang.com/&menu=yes" ><i class="iconfont">&#xe62f;</i><p>联系平台</p></a>-->
+<a id="ly_gotop" ><i class="iconfont">&#xe632;</i><p>返回</p></a>
+</div>
+<div class="yizhanwcom1"><div class="header"style="
+    background: #fff;
+
+">	
+<div class="general"style="
+    background: #fff;
+
+">
+<div class="main">
+<li style=" position: relative; float: left; background: #fff; width: 216px; height: 70px;  left: -8px;  "> </li>
+<li class="logo"style="
+    top: 51px;
+    height: 70px;
+"><a href="http://xinhuzhan3.a6wang.com/"></a></li>
+	<li class="search Search-box" onmouseover="topover()" onmouseout="topout()">
+	<span class="searchtype">搜源码</span><i></i>
+	<form name="topf1" method="post" onsubmit="return topftj()">
+	<input  name="topt" id="topt" type="text" class="searchval Search-inp"/>
+	<input type="image" src="http://xinhuzhan3.a6wang.com/homeimg/so.png">
+	<ul class="searchlist" style="display:none;"> 
+	<li data='serve'>  <a href="javascript:void();" onclick="topjconc(1,'搜源码')">搜源码</a></li>
+	<li data='domain'> <a href="javascript:void();" onclick="topjconc(2,'搜开发')">搜开发</a></li> 
+   <li data='domain1'> <a href="javascript:void();" onclick="topjconc(10,'搜美工')">搜美工</a></li> 
+	
+
+    </ul>
+    </form>
+    </li>	
+    <li class="t_ads">
+    <li class="Quick-link"style="
+    left: 0px;
+">
+                <a href="javascript:released('buy');" class="button">
+                    <span>免费发布需求</span>
+                    <i class="arrow"></i>
+                </a>
+                <p class="release_hover">
+                    <a href="/task/taskadd.php">免费发布任务</a>
+                    <a href="/user/productlx.php">源码交易发布<i class="rec-icon">荐</i></a>
+                    <a href="/user/productlxkf.php">交易服务发布</a>
+                </p>
+			</li>    </li>
+	</div>
+	</div>
+	  <div class="yizhanwdaohang">
+    <div class="nav1">
+    <div class="main">
+    <ul class="navlist">
+    <a href="http://xinhuzhan3.a6wang.com/" class="first cur">首页</a>
+        <a href="/product/search_j37v.html">源码大厅</a>
+        <a href="/productym/search_j236v.html">域名交易</a>
+        <a href="/productkf/search_j208v.html">开发服务</a>
+        <a href="/productmg/search_j217v.html">美工设计</a>
+        <a href="/productzh/search_j239v.html">帐号出售</a>
+        <a href="/productyy/search_j218v_k219v.html">营销推广</a>
+        <a href="/productwz/search_j213v.html">网站交易</a>
+        <a href="/task/">任务大厅</a>
+    	 <cite>
+	 <a href="http://xinhuzhan3.a6wang.com/help/ggview13.html" target="_blank">分成推广</a>
+	 <a href="http://xinhuzhan3.a6wang.com/help/ggview14.html" target="_blank">VIP特权！</a>
+	 </cite>
+	 </ul>
+		</div>
+	</div>
+</div></div>
+<!--头部-->
+
+
+<div class="bfb bfb1">
+<div class="yjcode">
+ <div class="dqwz">
+ <ul class="u1">
+ <li class="l1">
+ 当前位置：<a href="http://xinhuzhan3.a6wang.com/">首页</a> > 资讯
+ </li>
+ </ul>
+ </div>
+
+ <div class="ileft">
+ <!--头条B-->
+  <!--头条E-->
+ <div class="ad1"><a href="/help/view8.html" target=_blank><img alt="计算机/互联网" border=0 src=http://xinhuzhan3.a6wang.com/gg/1416208251ad54.jpg></a></div> <!--列表B-->
+  <div class="ilist">
+ <ul class="u1"><li class="l1 fontyh">升级补丁</li><li class="l2"><a href="newslist_j21v.html">更多</a></li></ul>
+ <div class="d1">
+  ·<a href="txtlist_i26v.html" target="_blank" title="8888"><font color='#333'>8888</font></a><br>
+  </div>
+ <div class="d2">
+  </div>
+ </div>
+  <div class="ilist">
+ <ul class="u1"><li class="l1 fontyh">技术文档</li><li class="l2"><a href="newslist_j22v.html">更多</a></li></ul>
+ <div class="d1">
+  </div>
+ <div class="d2">
+  </div>
+ </div>
+  <div class="ilist">
+ <ul class="u1"><li class="l1 fontyh">官方公告</li><li class="l2"><a href="newslist_j23v.html">更多</a></li></ul>
+ <div class="d1">
+  </div>
+ <div class="d2">
+  </div>
+ </div>
+  <div class="ilist">
+ <ul class="u1"><li class="l1 fontyh">数码/游戏/手机</li><li class="l2"><a href="newslist_j24v.html">更多</a></li></ul>
+ <div class="d1">
+  </div>
+ <div class="d2">
+  </div>
+ </div>
+  <div class="ilist">
+ <ul class="u1"><li class="l1 fontyh">生活百科</li><li class="l2"><a href="newslist_j25v.html">更多</a></li></ul>
+ <div class="d1">
+  </div>
+ <div class="d2">
+  </div>
+ </div>
+  <!--列表E-->
+ </div>
+ 
+
+<!--右B-->
+<div class="iright">
+<!--切换开始-->
+<div class="qh">
+ <div class="container" id="idTransformView">
+  <ul class="slider" id="idSlider">
+    <li><a href="/help/view8.html"  target="_blank" title="Pinterest: 下一代社交巨头"><img src="../gg/1416230127ad47.jpg" width="290" height="200" border="0" /></a></li>
+    <li><a href="/help/view8.html"  target="_blank" title="饿了么VS美团外卖：来自一个大学生的“硬碰硬”报告"><img src="../gg/1416230204ad53.jpg" width="290" height="200" border="0" /></a></li>
+    </ul>
+  <span style="display:none" id="qhai">2</span>
+  <ul class="num" id="idNum">
+   <li>1</li><li>2</li>  </ul>
+ </div>  
+</div>
+<!--切换结束-->
+ <ul class="hotpro">
+ <li class="l1">商品推荐</li>
+  <li class="l2"><a href="../product/view44.html"><img alt="BAOCMS 17.1 江湖CMS10.1 外卖、商城、团购、家政、跑腿、拼车、小程序源码App三端通！" src="../upload/14/1528471863-14/0558671001528471958tp14-2.jpg" width="50" height="50" align="left"></a><a href="../product/view44.html" title="BAOCMS 17.1 江湖CMS10.1 外卖、商城、团购、家政、跑腿、拼车、小程序源码App三端通！">BAOCMS 17.1 江湖CMS10.1 外卖、商城、团购、家政、跑腿、拼车、小程...</a><br><strong class="feng">￥1000.00</strong></li>
+  <li class="l2"><a href="../product/view47.html"><img alt="2018年3月最新易企秀同步官方模版微信场景源码永久更新+自定义微场景+带后台+多特效" src="../upload/14/1528477499-14/0444409001528477630tp14-2.jpg" width="50" height="50" align="left"></a><a href="../product/view47.html" title="2018年3月最新易企秀同步官方模版微信场景源码永久更新+自定义微场景+带后台+多特效">2018年3月最新易企秀同步官方模版微信场景源码永久更新+自定义微场景...</a><br><strong class="feng">￥80.00</strong></li>
+  <li class="l2"><a href="../product/view144.html"><img alt="【高仿优客逸家YOU+|蘑菇公寓|爱屋吉屋租房公寓源码dede内核界面漂【无地图找房】" src="../upload/15/1529066888-15/0112440001529066907tp15-2.jpg" width="50" height="50" align="left"></a><a href="../product/view144.html" title="【高仿优客逸家YOU+|蘑菇公寓|爱屋吉屋租房公寓源码dede内核界面漂【无地图找房】">【高仿优客逸家YOU+|蘑菇公寓|爱屋吉屋租房公寓源码dede内核界面漂【...</a><br><strong class="feng">￥20.00</strong></li>
+  <li class="l2"><a href="../product/view175.html"><img alt="2018最新前端改版金融分红升级版/每日返利/日分红/资金盘/新项目/投资/金融" src="../upload/15/1529247682-15/0777350001529247717tp15-2.jpg" width="50" height="50" align="left"></a><a href="../product/view175.html" title="2018最新前端改版金融分红升级版/每日返利/日分红/资金盘/新项目/投资/金融">2018最新前端改版金融分红升级版/每日返利/日分红/资金盘/新项目/投...</a><br><strong class="feng">￥198.00</strong></li>
+  <li class="l2"><a href="../product/view216.html"><img alt="BAOCMS 30.1 江湖CMS 完美可运营 程序源码原装源码App和Wap和支付体系、每天都升级更新维护！！！！" src="../upload/189/1529439225-189/0911983001529562992tp189-2.jpg" width="50" height="50" align="left"></a><a href="../product/view216.html" title="BAOCMS 30.1 江湖CMS 完美可运营 程序源码原装源码App和Wap和支付体系、每天都升级更新维护！！！！">BAOCMS 30.1 江湖CMS 完美可运营 程序源码原装源码App和Wap和支付体...</a><br><strong class="feng">￥1000.00</strong></li>
+  </ul> 
+
+ 
+ <div class="hotnew">
+ <ul class="u1 fontyh">
+ <li class="l1">资讯排行榜</li>
+ <li class="l2"><a href="./">更多>></a></li>
+ </ul>
+ <ul class="u2">
+  <li class="l1"><span class="s1">1</span></li>
+ <li class="l2"><a href="txtlist_i26v.html" title="8888">8888</a></li>
+  </ul>
+ </div> 
+<div class="ad1"><a href="/help/view8.html" target=_blank><img alt="资讯首页切换下方横幅" border=0 src=http://xinhuzhan3.a6wang.com/gg/1416235302ad45.jpg></a></div><div class="ad1"><a href="" target=_blank><img alt="虚位以待" border=0 src=http://xinhuzhan3.a6wang.com/gg/1488540609ad14.jpg></a></div></div>
+<!--右E-->
+
+</div>
+</div>
+
+<div class="yizhanw"> <div class="yizhanw2">
+<div class="bottom">
+<div class="main">
+		<div class="footer">
+			<div class="footer-nav left">
+			 
+					<dl>
+						<dt>买家指南</dt>
+						<dd>
+						 <p><a href="http://xinhuzhan3.a6wang.com/help/view19.html" target="_blank" rel="nofollow">如何注册</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view18.html" target="_blank" rel="nofollow">如何购买</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view17.html" target="_blank" rel="nofollow">搜索商品</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view16.html" target="_blank" rel="nofollow">支付方式</a></p>
+</dd>
+</dl>
+
+					<dl>
+						<dt>卖家指南</dt>
+						<dd>
+						 <p><a href="http://xinhuzhan3.a6wang.com/help/view15.html" target="_blank" rel="nofollow">如何出售</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view14.html" target="_blank" rel="nofollow">收费标准</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view13.html" target="_blank" rel="nofollow">入驻签约</a></p>
+</dd>
+</dl>
+
+					<dl>
+						<dt>安全交易</dt>
+						<dd>
+						 <p><a href="http://xinhuzhan3.a6wang.com/help/view11.html" target="_blank" rel="nofollow">钓鱼防骗</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view12.html" target="_blank" rel="nofollow">预防盗号</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view10.html" target="_blank" rel="nofollow">谨防诈骗</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view9.html" target="_blank" rel="nofollow">实名认证</a></p>
+</dd>
+</dl>
+
+					<dl>
+						<dt>常见问题</dt>
+						<dd>
+						 <p><a href="http://xinhuzhan3.a6wang.com/help/view8.html" target="_blank" rel="nofollow">如何充值</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view7.html" target="_blank" rel="nofollow">如何提现</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view6.html" target="_blank" rel="nofollow">真假客服</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view5.html" target="_blank" rel="nofollow">忘记密码</a></p>
+</dd>
+</dl>
+
+					<dl>
+						<dt>服务中心</dt>
+						<dd>
+						 <p><a href="http://xinhuzhan3.a6wang.com/help/view4.html" target="_blank" rel="nofollow">我要咨询</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view3.html" target="_blank" rel="nofollow">我要建议</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view2.html" target="_blank" rel="nofollow">我要投诉</a></p>
+<p><a href="http://xinhuzhan3.a6wang.com/help/view1.html" target="_blank" rel="nofollow">QQ客服</a></p>
+</dd>
+</dl>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					
+				
+			</div>
+			<div class="footer-contact">
+					<div class="left">
+
+						<b>管理客服</b>
+																	
+						
+	<p>Q Q：<a style='color: #007de4;'title="联系客服QQ" href="http://wpa.qq.com/msgrd?v=3&uin=120036745&site=http://xinhuzhan3.a6wang.com/&menu=yes">120036745</a></p>
+
+	<p>电话：1716-2728-133</p>
+	<p>邮箱：120036745@qq.com</p>
+	<p>时间：24 x 7 周六日无休息</p>
+	</div>
+	<span><img src="../img/ewm.jpg" width="100" height="100" /></span>	
+	<p>&nbsp;&nbsp;官方微信公众号</p>
+	</div>
+	</div>
+		</div>
+		<div class="footer-link">
+				<div class="footer-link-a left">
+					<p><a href="http://xinhuzhan3.a6wang.com/help/aboutview2.html" target="_blank" rel="nofollow">关于我们</a>  
+					<a href="http://xinhuzhan3.a6wang.com/help/aboutview3.html" target="_blank" rel="nofollow">广告合作</a> 
+					<a href="http://xinhuzhan3.a6wang.com/help/aboutview4.html" target="_blank" rel="nofollow">联系我们</a> 
+					<a href="http://xinhuzhan3.a6wang.com/help/aboutview5.html" target="_blank" rel="nofollow">隐私条款</a> 
+					<a href="http://xinhuzhan3.a6wang.com/help/aboutview6.html" target="_blank" rel="nofollow" title=6>免责声明</a> <em>我们致力于草根站长</em><em>&nbsp;&nbsp;&nbsp; 2013-2018 一站网 版权所有！&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</em> </p>
+					<cite>一站网 www.yizhanw.com 网站备案号：蜀ICP备12006656号-1</cite>
+				</div>
+				<div class="footer-link-i">
+				 <img src="../img/sm_124x47.png" height="40"></a>
+				 <img src="../img/hangye_bottom_small.png"></a>
+				 <img src="../img/kx_124x47.jpg" height="40"></a>
+				 <img src="../img/cert_40_1.png" height="40"></a>
+				 <img src="../img/yd_124x47.jpg" height="40"></a>
+				</div>
+			</div>
+
+	</div>
+</div>
+
+</div> </div>
+</body>
+</html>
